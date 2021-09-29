@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* common css star */
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+.line {
+    border-top: 1px solid rgb(170, 166, 166);
+    margin: 5px 0;
+}
+/* common css end */
+
+
+/* main css star */
+main {
+    height: 80vh;
+    background: #f0f2f5;
+}
+main > .container {
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "fc fc fc fc fc fc ff ff ff ff ff ff"
+    ;
+    align-content: center;
+}
+.fb-content {
+    grid-area: fc;
+}
+.fb-img {
+	margin-top: -68px;
+}
+.fb-content img {
+	width: 330px;
+	height: 300px;
+}
+.fb-content .fb-text {
+	margin-top: -100px;
+	margin-left: 29px;
+    font-size: 15px;
+   
+}
+.fb-form {
+    grid-area: ff;
+}
+.fb-form form {
+	background: rgb(255, 254, 254);
+	padding: 20px 14px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: -3px 2px 6px 3px rgba(185, 175, 175, 0.42);
+	width: 90%;
+	margin: auto;
+}
+.fb-form form input{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px ;
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 5px ;
+    border: 2px solid #dddfe2;
+    font-size: 16px;
+}
+.fb-form form .btn {
+    background: green;
+    display: block;
+    padding: 10px 0;
+    border-radius: 5px; 
+    color: #dddfe2;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 3px;
+    transition: .50s;
+}
+.fb-form form .btn:hover {
+    background: rgb(62, 100, 4);
+}
+.fb-form form .for {
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 20px 0; 
+    display: block;
+}
+.fb-form form .for:hover {
+    text-decoration: underline;
+}
+.fb-form form .cre {
+    display: inline-block;
+    margin: 20px 0;
+    background: blue;
+    color:rgb(235, 231, 231);
+    font-weight: 800;
+    padding: 15px 8px;
+    text-decoration: none; 
+    border-radius: 5px;
+    transition: .50s;
+}
+.fb-form form .cre:hover {
+    background: rgb(88, 88, 212);
+}
+.fb-form .pages {
+	text-align: center;
+	margin-top: 30px;
+    font-size: 14px;
+}
+.fb-form .pages a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.fb-form .pages a:hover {
+    text-decoration: underline;
+}
+/* main css end */
+
+
+
+/* footer css star */
+
+footer {
+    padding: 20px 0;
+}
+.lang  {
+    margin-bottom: 10px;
+}
+.lang ul {
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 14px;
+    color: gray;
+}
+ ul li a {
+    text-decoration: none;
+    color: gray;
+}
+ ul li a:hover {
+    text-decoration: underline;
+}
+.link {
+    margin: 20px 0;
+}
+.bottom {
+    font-size: 12px;
+    color:gray;
+}
+/* footer css end */

@@ -1,0 +1,42 @@
+@media screen and (max-width: 750px) {
+    .container {
+        max-width: 90%;
+        margin: auto;
+    }
+   
+    main > .container {
+        grid-template-areas: " fc " 
+                             " ff "
+                             ;
+        align-content: start;
+    }
+    main {
+        height: auto;
+    }
+    .fb-img {
+        margin-top: -102px;
+        text-align: center;
+    }
+    .fb-content img {
+        width: 277px;
+        height: 300px;
+    }
+    .fb-content .fb-text {
+        margin-top: -116px;
+        margin-left: 0px;
+        font-size: 11px;
+        text-align: center;
+        padding: 0 13px;
+        margin-bottom: 22px;
+    }
+    .fb-form form {
+        width: 100%;
+    }
+    ul li {
+        margin-left: 13px;
+        font-size: 11px;
+    }
+    .bottom {
+        text-align: center;
+    }
+}
